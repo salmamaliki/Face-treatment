@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="113dp"
+        android:layout_height="94dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/profile2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:layout_marginTop="-4dp"
+        android:fontFamily="@font/artifika"
+        android:text="Edukasi Perawatan Wajah"
+        android:id="@+id/edukasi"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/profile"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-10dp"
+        android:id="@+id/about"
+        android:src="@drawable/about" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edukasi"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edukasisatu"
+        android:src="@drawable/satu"/>
+    <Button
+        android:id="@+id/btnsatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edukasisatu"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/kreonreguler"
+        android:text="Click Here"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edukasisatu"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edukasidua"
+        android:src="@drawable/satu"/>
+    <Button
+        android:id="@+id/btndua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edukasidua"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/kreonreguler"
+        android:text="Click Here"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edukasidua"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edukasitiga"
+        android:src="@drawable/tiga"/>
+    <Button
+        android:id="@+id/btntiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edukasitiga"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/kreonreguler"
+        android:text="Click Here"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="210dp"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:id="@+id/login"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:id="@+id/back"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:text="Face Treatment"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/artifika"
+        android:textSize="20sp"
+        android:id="@+id/txt_1"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:text="LOGIN"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/kreonreguler"
+        android:textSize="20dp"
+        android:id="@+id/txt_2"
+        android:textColor="@color/merah"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_below="@id/txt_2"
+        android:id="@+id/layout">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:hint="email"
+            android:id="@+id/txt_3"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/kreonreguler"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:hint="password"
+            android:id="@+id/txt_4"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/kreonreguler"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:width="200dp"
+        android:layout_below="@id/txt_1"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/kreonreguler"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/kreonreguler"
+            android:textColor="@color/black"
+            android:text="Not have an account?"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/kreonreguler"
+            android:textColor="@color/merah"
+            android:id="@+id/txt.register"
+            android:text="Register"/>
+
+    </LinearLayout>
+</RelativeLayout>
