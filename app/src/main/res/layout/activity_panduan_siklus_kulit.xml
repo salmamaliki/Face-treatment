@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgadem2"
+    tools:context=".PanduanMasalahWajahActivity">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kreonlight"
+                android:padding="10dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/background"
+                android:text="SIKLUS KULIT WAJAH"
+                android:id="@+id/judul1"
+                />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/siklusbg"
+                android:layout_below="@id/judul1"
+                android:id="@+id/jerawat"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kreonlight"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="16dp"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:id="@+id/penjelasankulit"
+                android:text="BERIKUT TAHAPAN SIKLUS KULIT WAJAH:"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:layout_below="@+id/penjelasankulit"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/umur19"
+                android:text="Usia 10 – 19 tahun.
+
+Pada fase usia ini proses regenerasi kulit masih berjalan dengan baik (14 – 28 hari), sehingga kulit masih terlihat cerah. Namun, karena produksi minyak alami kulit (sebum) masih tinggi, tidak jarang masalah jerawat timbul akibat pembersihan kulit yang tidak sempurna. Disarankan untuk secara rutin melakukan pembersihan kulit seperti dengan Bless Oil Control Series, Bless Acne Series, atau Bless Normal Series sesuai dengan jenis kulit. Untuk aktivitas di luar ruangan gunakan Bless Sunscreen SPF 19 untuk melindungi kulit dari pengaruh buruk sinar UV seperti kulit terbakar, hyper-pigmentasi, penuaan dini dan untuk jangka panjang dapat menyebabkan"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:fontFamily="@font/kreonlight"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/mulai20"
+                android:text="Usia 20 - 29 tahun.
+
+Pada fase ini kulit juga masih terlihat cukup baik dan biasanya problem jerawat sudah mulai berkurang. Untuk melindungi kulit dari pengaruh buruk sinar UV, gunakan pelembab yang mengandung UV Filter di pagi hari seperti Bless Day Cream, Bless Sunscreen SPF 19, Bless Oil Control Light Moisturizer atau Bless Healthy Glow Foundation dan gunakan pelembab malam hari seperti Bless Night Cream untuk membantu memperlambat tanda-tanda penuaan dini."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/kreonlight"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/mulai40"
+                android:text=" Usia 30 – 39 tahun.
+
+Pada usia ini umumya kulit sudah mulai kehilangan kecerahan, karena proses regenerasi kulit yang sudah melambat dan garis-garis ekspresi wajah sudah mulai terlihat. Disarankan untuk menggunakan pelembab yang mengandung AHA (Alpha Hydroxy Acid) yang bermanfaat untuk membantu mengangkat sel-sel kulit mati dan merangsang pertumbuhan sel-sel kulit baru yang lebih cerah seperti Bless Resurfacing Cream+ sebagai pelembab malam hari dan tetap gunakan pelembab yang mengandung UV Filter di pagi hari."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/kreonlight"
+                android:id="@+id/atas50"
+                android:text="Usia 40 tahun ke atas.
+Pada fase usia ini, lapisan stratum corneum (lapisan terluar kulit yang tersusun dari sel-sel kulit mati) menjadi lebih tebal karena penumpukan melanin sehingga timbul flek hitam dan wajah terlihat lebih kusam. Garis ekspresi pada wajah pun sudah mulai terlihat jelas. Memasuki usia 50 tahunan, seorang wanita akan memasuki masa menopause, yang akan membuat kulit terasa semakin kering karena berkurangnya hormon esterogen yang mengakibatkan produksi minyak alami kulit (sebum) berkurang. Semakin kering kondisi kulit, biasanya
+akan membuat kulit semakin sensitif, oleh karena itu jaga kelembaban alami kulit dengan rangkaian perawatan kulit wajah dengan kandungan pelembab yang menyerupai Natural Moisturizing Factor seperti Bless Sensitive Skin Series. Serta tetap lindungi kulit dengan menggunakan pelembab yang mengandung kulit dengan menggunakan pelembab yang mengandung UV Filter di pagi hari dan gunakan pelembab dengan kandungan AHA untuk membantu proses regenerasi kulit."
+                />
+
+            <TextView
+                android:id="@+id/skintiweb"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:background="@drawable/background"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:padding="20dp"
+                android:text="Pelajari lebih lanjut : https://www.bless.co.id/bless-corner/bless-corner-article/proses-perubahan-kulit"
+                />
+            <Button
+                android:id="@+id/backsiklus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/kreonreguler"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

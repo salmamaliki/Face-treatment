@@ -4,93 +4,150 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/pink"
+    android:background="@drawable/bg8"
     tools:context=".HomeActivity">
 
-    <ImageView
-        android:id="@+id/profile"
-        android:layout_width="113dp"
-        android:layout_height="94dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerHorizontal="true"
-        android:scaleType="fitCenter"
-        android:src="@drawable/profile2" />
 
-    <TextView
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/profile"
-        android:layout_marginTop="-4dp"
-        android:fontFamily="@font/artifika"
-        android:text="Edukasi Perawatan Wajah"
-        android:id="@+id/edukasi"/>
+        android:layout_centerInParent="true">
 
-    <ImageView
-        android:layout_width="24dp"
-        android:layout_height="25dp"
-        android:layout_below="@id/profile"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="-10dp"
-        android:id="@+id/about"
-        android:src="@drawable/about" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edukasi"
-        android:layout_marginTop="30dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/edukasisatu"
-        android:src="@drawable/satu"/>
-    <Button
-        android:id="@+id/btnsatu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edukasisatu"
-        android:layout_marginTop="15dp"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/white"
-        android:fontFamily="@font/kreonreguler"
-        android:text="Click Here"
-        android:textColor="@color/black"
-        android:textSize="20sp" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edukasisatu"
-        android:layout_marginTop="70dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/edukasidua"
-        android:src="@drawable/satu"/>
-    <Button
-        android:id="@+id/btndua"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edukasidua"
-        android:layout_marginTop="15dp"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/white"
-        android:fontFamily="@font/kreonreguler"
-        android:text="Click Here"
-        android:textColor="@color/black"
-        android:textSize="20sp" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edukasidua"
-        android:layout_marginTop="70dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/edukasitiga"
-        android:src="@drawable/tiga"/>
-    <Button
-        android:id="@+id/btntiga"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edukasitiga"
-        android:layout_marginTop="15dp"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/white"
-        android:fontFamily="@font/kreonreguler"
-        android:text="Click Here"
-        android:textColor="@color/black"
-        android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutInsideScrollView"
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/btn_profile"
+                android:layout_width="113dp"
+                android:layout_height="94dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="right"
+                android:src="@drawable/akun" />
+
+            <TextView
+                android:id="@+id/edukasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="@font/kreonlight"
+                android:text="Edukasi Perawatan Wajah"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <ImageView
+                android:id="@+id/edukasisatu"
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/edukasi"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/siklus" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIKLUS KULIT WAJAH"
+                android:id="@+id/btn1home1"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/edukasidua"
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/edukasisatu"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/masalah" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MASALAH UMUM KULIT WAJAH"
+                android:id="@+id/btn2home1"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/edukasitiga"
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/edukasidua"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/tahapan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAHAPAN PENGGUNAAN SKINCARE"
+                android:id="@+id/btn3home1"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+
+            <ImageView
+                android:id="@+id/edukasiempat"
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/acne" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REKOMENDASI ACNE SKINCARE"
+                android:id="@+id/btn4home1"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+
+            <ImageView
+                android:id="@+id/edukasilima"
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/edukasiempat"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/barrierskincare" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REKOMENDASI PRODUK UNTUK SKIN BARRIER"
+                android:id="@+id/btn5home1"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/edukasienam"
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/edukasilima"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/cerahkan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REKOMENDASI BRIGHTENING SKINCARE"
+                android:id="@+id/btn6home1"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estetik"
+    tools:context=".PanduanMasalahWajahActivity">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/background"
+                android:text="Urutan Skincare Untuk Pemula yang Benar, Wajah Jadi Glowing!"
+                />
+
+            <ImageView
+                android:id="@+id/penggunaan"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_below="@id/judul1"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/penggunaan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/kreonlight"
+                android:layout_marginEnd="16dp"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:id="@+id/penjelasankulit"
+                android:text="Urutan Skincare Pemula yang Benar di Pagi Hari"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kreonlight"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/penjelasankulit"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/umur19"
+                android:text="1. Facial Wash (Pembersih Wajah)
+Untuk urutan skincare pemula untuk pagi hari dimulai dengan menggunakan facial wash atau pembersih wajah. Penggunaan facial wash sebenarnya tidak hanya di pagi hari saja, facial wash tentunya juga harus kamu setelah selesai beraktivitas, terutama bagi kamu yang beraktivitas di luar ruangan.
+
+Pada pagi hari, penggunaan facial wash bertujuan untuk menghapus sisa-sisa skincare pada malam hari atau riasan yang mungkin masih ada di wajah kamu. Dengan kamu menggunakan facial wash pada pagi hari, tentunya untuk produk skincare selanjutnya akan menjadi lebih efektif."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/kreonlight"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/mulai20"
+                android:text="2. Toner
+Setelah menggunakan facial wash dan memastikan sudah kamu keringkan, selanjutnya kamu bisa menggunakan toner. Toner memiliki fungsi untuk memberikan lapisan awal pada wajah sebelum menggunakan produk skincare selanjutnya. "
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/kreonlight"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/mulai40"
+                android:text="3. Essence/Serum
+Setelah menggunakan toner, urutan skincare pemula untuk pagi hari selanjutnya dari Anessa adalah menggunakan essence. Essence dapat melembabkan kulit dan akan memudahkan produk skincare selanjutnya untuk meresap ke kulit kamu."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/atas50"
+                android:text="4. Pelembab (Moisturizer)
+Setelah menggunakan essence, maka tahap selanjutnya kamu bisa menggunakan pelembab atau moisturizer. Sesuai dengan namanya, produk skincare pada tahap ini bertujuan untuk melembabkan wajah kamu."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/pelembab"
+                android:text="5. Sunscreen
+Tahap dari rangkaian urutan skincare pemula untuk pagi hari dari Anessa kali ini adalah menggunakan sunscreen. Skincare ini sangat harus kamu gunakan untuk melindungi kulit kamu dari bahaya sinar UV atau sinar matahari. "
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/ss"
+                android:text="Urutan Pemakaian Skincare Malam Untuk Pemula"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/doubleclean"
+                android:text="1. Micellar Water
+Jika untuk pagi hari pada tahap pertama kamu menggunakan facial wash, makan untuk malam hari sebelum menggunakan facial wash, kamu perlu menggunakan terlebih dahulu micellar water."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/fc"
+                android:text="2. Facial Wash (Pembersih Wajah)
+Setelah wajah kamu bersih dari sisa-sisa riasan atau kotoran, maka tahap selanjutnya kamu bisa menggunakan facial wash atau pembersih wajah. "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/toner"
+                android:text="3. Eksfoliasi
+Urutan skincare pemula untuk malam hari selanjutnya adalah kamu bisa menggunakan eksfoliasi atau scrub wajah.
+Tujuan penggunaan eksfoliasi  atau scrub wajah ini bertujuan untuk mengangkat sel kulit mati, agar nantinya manfaat skincare pada tahap selanjutnya lebih maksimal.
+Hal yang perlu kamu perhatikan dalam penggunaan eksfoliasi  ini adalah tidak menggunakannya setiap hari, namun kamu cukup menggunakannya 1 atau 2 kali saja setiap minggunya."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/serum"
+                android:fontFamily="@font/kreonlight"
+                android:text="4. Toner
+Selain pagi hari hari, toner juga harus kamu gunakan  pada malam hari. Untuk mengatasi masalah kulit kering dan kusam kamu, maka kamu dapat menggunakan toner dengan kandungan lactic acid, hyaluronic acid, dan gliserin karena kandungan-kandungan tersebut berguna untuk melembabkan kulit kamu selama kamu beristirahat pada malam hari."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/eksfo"
+                android:text="5. Serum
+Setelah kamu menggunakan toner, maka selanjutnya dalam urutan skincare pemula untuk malam hari adalah menggunakan serum. Dalam sebuah toner, ada beberapa kandungan yang cukup populer untuk mengatasi masalah kulit kering dan kusam kamu.
+Beberapa kandungan bahan tersebut adalah seperti niacinamide, hyaluronic acid, ceramide, panthenol, glycolic acid dan masih banyak lagi.
+Serum ini juga nantinya bisa kamu sesuaikan dengan permasalahan apa yang terjadi pada kulit wajah kamu."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/umur19"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/krimmaalam"
+                android:fontFamily="@font/kreonlight"
+                android:text="6. Krim Malam
+Langkah dalam urutan skincare pemula untuk malam hari dari Anessa adalah menggunakan krim malam. Menggunakan krim malam akan memberikan beberapa manfaat untuk kulit wajah kamu."
+                />
+
+            <TextView
+                android:id="@+id/skintiweb"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:background="@drawable/background"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:padding="20dp"
+                android:text="Pelajari lebih lanjut : https://www.youtube.com/watch?v=4SXGDr6Apu8"
+                />
+            <Button
+                android:id="@+id/backskincare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/kreonreguler"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

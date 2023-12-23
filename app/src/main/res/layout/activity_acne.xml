@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bunga"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:id="@+id/scrollViewacne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutInsideScrollView"
+            android:layout_width="419dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bgkedua"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="REKOMENDASI ACNE SKINCARE"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/acnegambar"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/you"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:background="@drawable/background"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kreonlight"
+                android:text="1.Whitelab #YourAcneSavior. Series
+Paket perawatan dari Whitelab ini terdiri dari 4 rangkaian yakni  Whitelab Acne Soap, Whitelab Acne Toner, Whitelab Acne Calming Serum (Improved Formula), dan Whitelab Acne Cream. Produk dari Whitelab ini bisa digunakan untuk jerawat di wajah, beruntusan, bahkan jerawat di punggung. Wah, recommended banget, nih! Gunakan serangkaian produk dari Whitelab ini untuk hasil yang lebih maksimal, ya!"
+                />
+            <ImageView
+                android:id="@+id/edukasisatu"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/whittelab" />
+
+            <TextView
+                android:id="@+id/webyou"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:background="@drawable/background"
+                android:padding="20dp"
+                android:fontFamily="@font/kreonlight"
+                android:textColor="@color/black"
+                android:text="Shopee: https://tinyurl.com/y4fkzhs4"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wardahjudul"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/background"
+                android:layout_marginTop="20dp"
+                android:text="2. Wardah Acnederm Series. Terdiri dari rangkaian produk perawatan kulit wajah dengan Dermaspecific Plan yang aktif membantu melawan jerawat dan komedo, serta melindungi kulit dari penyebab timbulnya jerawat. Dermaspecific Plan ini juga membantu menghaluskan dan mencerahkan kulit dari dalam. "
+                />
+
+            <ImageView
+                android:id="@+id/wardah"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/wrdh" />
+
+            <TextView
+                android:id="@+id/wardahtext"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:background="@drawable/background"
+                android:padding="20dp"
+                android:fontFamily="@font/kreonlight"
+                android:textColor="@color/black"
+                android:text="Shopee: https://tinyurl.com/mrxkbp2y"
+                />
+            <Button
+                android:id="@+id/backacne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/kreonreguler"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

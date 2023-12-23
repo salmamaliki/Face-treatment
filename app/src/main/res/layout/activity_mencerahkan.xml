@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skincarebg"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:id="@+id/scrollViewacne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutInsideScrollView"
+            android:layout_width="415dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apa Itu Skincare Brightening?"
+                android:background="@drawable/background"
+                android:padding="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kreonlight"
+                android:textSize="20sp"
+                android:layout_marginStart="30dp"/>
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/smile"/>
+
+            <TextView
+                android:id="@+id/mencerahkan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kreonlight"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:text="Skincare brightening adalah produk dengan formulasi khusus untuk mencerahkan dan meratakan warna kulit wajah. Fungsi utamanya adalah mengatasi noda hitam, bekas jerawat, dan warna kulit yang tidak rata. 
+
+ productnation. Penggunaan produk yang tepat dan teratur, akan membuat wajahmu akan kembali cerah bersinar. Yuk, simak rekomendasi produk skincare brightening terbaik untuk beragam jenis kulit ini. productnation"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:text="KENALI KANDUNGAN SKINCARE YANG MENCERAHKAN"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginTop="5dp"
+                android:text="1. Vitamin C
+Bahan andalan untuk mencerahkan kulit yang satu ini sudah dikenal akan kandungannya yang kaya antioksidan, dan cocok untuk berbagai jenis kulit serta usia. Cara kerja vitamin C untuk mencerahkan kulit adalah dengan menetralkan radikal bebas, kemudian membantu regenerasi sel kulit. Hasilnya, noda gelap berkurang dan produksi kolagen meningkat sehingga kulitmu tetap kenyal serta cerah productnation"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginTop="5dp"
+                android:text="2. Niacinamide
+Bahan yang satu ini ini sebenarnya merupakan vitamin B3 yang mudah diserap oleh kulit. Niacinamide dapat mengatasi berbagai problem di kulit, seperti hiperpigmentasi sekaligus mencerahkan wajah. 
+
+Selain itu, niacinamide juga dapat meningkatkan fungsi lapisan pelindung di kulit wajah sehingga tidak mudah kehilangan kelembaban alaminya. Jadi, bahan ini bisa berfungsi sebagai agen brightening, moisturizing, dan bahkan dapat membasmi jerawat dan bakteri dari kulit karena sifat anti inflamasinya. productnation"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                android:layout_marginTop="5dp"
+                android:text="3. Arbutin
+Nah, kalau bahan yang ini sebenarnya ada dua jenis, Alpha Arbutin atau Beta Arbutin. Bahan yang lebih stabil untuk kulitmu adalah Alpha Arbutin yang diperoleh dari tanaman beri, seperti blueberry atau cranberry.
+
+Arbutin mencerahkan kulit dengan mencegah pembentukan melanin serta memperlambat efek sinar UV sehingga dapat mengurangi hiperpigmentasi maupun pembentukan noda gelap di kulit. productnation"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REKOMENDASI SKINCARE"
+                android:padding="10dp"
+                android:layout_marginStart="80dp"
+                android:background="@drawable/background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. HADA LABO BRIGHTENING"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="60dp"
+                android:src="@drawable/hado"/>
+            <TextView
+                android:id="@+id/wardahtext"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:background="@drawable/background"
+                android:padding="20dp"
+                android:fontFamily="@font/kreonlight"
+                android:textColor="@color/black"
+                android:text="Shope: http://surl.li/okldi"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. The Originote Gluta-Bright B3 Serum"
+                android:padding="10dp"
+                android:background="@drawable/background"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="60dp"
+                android:src="@drawable/ori"/>
+            <TextView
+                android:id="@+id/garnier"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:background="@drawable/background"
+                android:padding="20dp"
+                android:fontFamily="@font/kreonlight"
+                android:textColor="@color/black"
+                android:text="Shope: http://surl.li/oklqt"
+                />
+
+
+            <Button
+                android:id="@+id/backbrightening"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/kreonreguler"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpohon"
+    tools:context=".PanduanMasalahWajahActivity">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginStart="30dp"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/bgkedua"
+                android:text="PERMASALAHAN PADA KULIT WAJAH"
+                android:id="@+id/judul1"
+                />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/jerawat"
+                android:layout_below="@id/judul1"
+                android:id="@+id/jerawat"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/kreonlight"
+                android:layout_marginEnd="16dp"
+                android:padding="10dp"
+                android:background="@drawable/bgkedua"
+                android:id="@+id/penjelasankulit"
+                android:text="Berikut adalah beberapa penjelasan lebih lanjut tentang beberapa masalah kulit wajah yang umum:"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:layout_below="@+id/penjelasankulit"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:background="@drawable/bgkedua"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/nomor1"
+                android:text="1. Jerawat
+Tidak bisa dipungkiri bahwa jerawat memang menjadi salah satu masalah pada kulit wajah yang paling sering terjadi, bahkan bisa dialami oleh wanita maupun pria. Banyak orang yang beranggapan bahwa masalah jerawat akan berhenti setelah melewati masa pubertas. Pada kenyataannya, masalah kulit tersebut bisa datang kapan saja dan kepada siapa saja.
+Jerawat sendiri umumnya disebabkan oleh minyak berlebih atau kotoran dan debu yang menumpuk, sehingga membuat pori-pori kulit menjadi tersumbat. Pori-pori yang tersumbat ini memicu pertumbuhan bakteri yang pada akhirnya membuat kulit meradang dan muncul jerawat. "
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kreonlight"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/nomor1"
+                android:layout_marginStart="16dp"
+                android:padding="10dp"
+                android:background="@drawable/bgkedua"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/solusi1"
+                android:text="Cara mengatasi jerawat:
+Rutin membersihkan muka dari debu, kotoran, dan sisa makeup.
+Berolahraga secara teratur minimal 30 menit setiap hari.
+Jaga pikiran agar tidak mudah stres.
+Perbanyak minum air putih agar kulit tetap lembab.
+Hindari Makanan berminyak."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/solusi1"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:fontFamily="@font/kreonlight"
+                android:background="@drawable/bgkedua"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/nomor2"
+                android:text="2. Komedo
+Munculnya komedo di wajah umumnya terjadi karena perubahan hormon, iritasi, adanya bakteri, kulit terlalu lembab, menggunakan produk kosmetik yang memicu muncul komedo (biasanya berasal dari kandungan propylene glycol dan isopropyl myristate), dan terlalu banyak mengonsumsi makanan berlemak."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/nomor2"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/kreonlight"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:background="@drawable/bgkedua"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/solusi2"
+                android:text="Cara melawan komedo yang membandel:
+Lakukan eksfoliasi kulit.
+Gunakan masker dari bahan alami seperti lidah buaya.
+Gunakan produk skincare tambahan seperti retinol ataupun serum"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/solusi2"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:background="@drawable/bgkedua"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/kreonlight"
+                android:id="@+id/nomor3"
+                android:text="3. Flek Hitam
+Banyak orang mengaitkan masalah flek hitam dengan pertambahan usia. Namun hal tersebut sebenarnya tidak sepenuhnya benar, sebab flek hitam atau hiperpigmentasi ini bisa terjadi pada siapa saja.
+Biasanya, tanda kemunculan flek hitam bisa dilihat dari adanya bintik-bintik atau bercak berwarna gelap di area wajah.
+Penyebab munculnya flek hitam antara lain paparan sinar UV berlebih, faktor genetik, perubahan hormon estrogen, mengonsumsi pil KB, penggunaan skincare yang memicu pertumbuhan fotosensitivitas, serta penumpukan zat melanin pada kulit wajah. Di mana zat melanin tersebut merupakan zat yang mempunyai peran membentuk pigmen warna kulit."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/nomor3"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/kreonlight"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:background="@drawable/bgkedua"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/solusi3"
+                android:text="Cara menghilangkan flek hitam:
+Gunakan sunscreen SPF min 30 agar kulit tidak terbakar sinar matahari.
+Banyak minum air putih agar kulit tetap terhidrasi.
+Pilih masker dari bahan alami seperti sari lemon, kunyit, atau gel lidah buaya.
+Lakukan chemical peeling.
+Terapi secara medis dengan melakukan terapi laser atau Cryosurgery."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/solusi3"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kreonlight"
+                android:padding="10dp"
+                android:background="@drawable/bgkedua"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/nomor4"
+                android:text="4. Kulit berminyak bisa terjadi karena faktor genetik, usia, stres kulit terlalu banyak menghasilkan sebum, terlalu banyak mengkonsumsi makanan berminyak, ketidakseimbangan hormon, hingga masalah ketidakcocokan kulit dengan suatu produk."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/solusi4"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/kreonlight"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:background="@drawable/bgkedua"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/solusi4"
+                android:text="Cara mengurangi minyak wajah berlebih:
+Rutin mencuci wajah 2 kali sehari saat pagi dan malam hari.
+Jangan menyentuh area wajah menggunakan tangan.
+Atur pola makan yang sehat dan mengandung asam lemak omega-3.
+Hindari makanan manis dan berminyak.
+Gunakan pelembab untuk merawat kulit agar tetap kering."/>
+
+            <TextView
+                android:id="@+id/skintiweb"
+                android:fontFamily="@font/kreonlight"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:background="@drawable/bgkedua"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:padding="20dp"
+                android:text="Pelajari Lebih Lanjut: https://www.youtube.com/watch?v=CvdVZtG2-Co"
+                />
+
+            <Button
+                android:id="@+id/masalahwajah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/kreonreguler"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:id="@+id/backkehome"
+        />
+
+    <ImageView
+        android:id="@+id/btn_profile2"
+        android:layout_marginTop="100dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/akun"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SalmaMaliki Ilmi"
+        android:fontFamily="@font/kreonlight"
+        android:textColor="@color/black"
+        android:layout_below="@id/btn_profile2"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"
+        android:id="@+id/salma"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="salmamalikiilmi@gmail.com"
+        android:fontFamily="@font/kreonlight"
+        android:textColor="@color/black"
+        android:layout_below="@id/salma"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:id="@+id/maliki"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maliki"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:width="200dp"
+            android:text="Edit Profile"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/kreonreguler"
+            android:id="@+id/btnedit"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnedit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:text="Log Out"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/kreonreguler"
+            android:id="@+id/btnlogout"/>
+
+
+</RelativeLayout>

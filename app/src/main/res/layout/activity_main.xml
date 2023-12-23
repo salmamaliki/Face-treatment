@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txt_1"
         android:layout_marginTop="182dp"
-        android:fontFamily="@font/kreonreguler"
+        android:fontFamily="@font/artifika"
         android:gravity="center"
         android:padding="20sp"
         android:text="Dengan mendaftar, anda setuju dengan
